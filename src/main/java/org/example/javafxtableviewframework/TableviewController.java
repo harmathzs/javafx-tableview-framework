@@ -15,6 +15,8 @@ public class TableviewController implements Initializable {
     @FXML
     public TableColumn<ObservableList<String>, String> tableColumn0;
 
+    public ObservableList<ObservableList<String>> tableData;
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
